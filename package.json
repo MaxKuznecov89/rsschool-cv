@@ -1,0 +1,22 @@
+{
+    "name": "htmlcv",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "csscomb": "^4.3.0",
+        "htmlhint": "^0.11.0",
+        "stylelint": "^11.0.0",
+        "stylelint-config-htmlacademy": "^0.1.4"
+    },
+    "scripts": {
+        "testhtml": "htmlhint *.html",
+        "testcss": "stylelint assets/css/**/*.css",
+        "testcomb": "csscomb ./assets/css",
+        "test": "npm run testcomb && npm run testhtml && nmp run testcss"
+
+    },
+    "author": "",
+    "license": "ISC"
+}
