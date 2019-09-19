@@ -1,0 +1,60 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'poppinsextralight', 'Times New Roman', Times, serif;
+}
+h1,h2 {
+    font-family: 'poppinsextrabold', 'Times New Roman', Times, serif;
+    color: #434244;  
+}
+
+.container {
+    max-width: 1024px;
+    margin: 100px auto;
+    background-color: #f1f1f1;
+    display: flex;
+    border-radius: 50px;
+}
+figure {
+    margin: 0;
+}
+img {
+    width: 80%;
+    border-radius: 300px; /* Радиус скругления */
+
+}
+.section {
+    background-color: #eceded;
+    padding: 0 5%;
+    margin: 0 5%;
+}
+.header {
+    width: 40%;
+}
+.main {
+    width: 60%;
+}
+table {
+    width: 100%;
+}
+.my-education {
+    display: flex;
+}
+.head-education {
+    width: 20%;
+}
+.text-education {
+    width: 80%;
+}
+@media screen and (max-width: 760px) {
+    .container {
+         display: block;
+    }
+    .header {
+        width: 100%;
+    }
+    .main {
+        width: 100%;
+    }
+  }
