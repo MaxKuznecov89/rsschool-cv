@@ -1,0 +1,12 @@
+From 210dfa8cacc1c2a396c1e4406b23c071b14c2c26 Mon Sep 17 00:00:00 2001
+From: Max <Max@mail.ru>
+Date: Wed, 18 Sep 2019 09:11:55 +0500
+Subject: doc: add index and css
+
+
+diff --git a/assets/css/main.css b/assets/css/main.css
+new file mode 100644
+index 0000000..e69de29
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..e69de29

@@ -1,1 +1,1 @@
-# https://MaxKuznecov89.github.io/rsschool-cv/cv
+# https://MaxKuznecov89.github.io/rsschool-cv/index.html
